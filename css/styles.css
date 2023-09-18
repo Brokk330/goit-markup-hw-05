@@ -842,13 +842,11 @@ form-field-wrapper {
 }
 
 .visually-hidden .checkbox-addition-privacy {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-  position: absolute;
+position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
+  border: 0;
   padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
