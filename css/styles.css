@@ -523,7 +523,7 @@ body {
   background-color: #404bbf;
 }
 /* FOOTER */
-.footer-form-section{
+.footer-form-section {
   margin-left: auto;
 }
 .footer-container {
@@ -857,6 +857,7 @@ body {
 
 .checkbox-addition {
   margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .checkbox-addition-privacy:checked + .checkbox-label-text > .text-first-part {
@@ -885,9 +886,10 @@ body {
   font-size: 12px;
   font-weight: 400;
   font-family: Roboto, sans-serif;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   margin-left: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .checkbox-label-text-addition {
@@ -1005,7 +1007,6 @@ input::placeholder {
 }
 
 .form-style-set:hover {
- 
 }
 
 .form-style-set:focus {
