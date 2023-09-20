@@ -783,9 +783,6 @@ body {
   margin-bottom: 8px;
 }
 
-.form-input-wrap-addition {
-  margin-bottom: 16px;
-}
 
 .form-field-wrapper {
   display: flex;
@@ -858,7 +855,6 @@ body {
 
 .checkbox-addition {
   margin-bottom: 24px;
- 
 }
 
 .checkbox-addition-privacy:checked + .checkbox-label-text > .text-first-part {
@@ -1048,6 +1044,9 @@ input::placeholder {
 
 .footer-icons-frame {
   margin-left: 16px;
+}
+.form-input-wrap-addition {
+  margin-bottom: 16px;
 }
 
 h1,
