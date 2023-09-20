@@ -775,6 +775,7 @@ body {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 16px;
+  display: block;
 }
 
 .form-field-wrapper {
@@ -801,7 +802,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: block;
+  
 }
 
 .form-field-icon {
@@ -880,13 +881,12 @@ body {
 }
 
 .checkbox-label-text {
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
+  font-family: Roboto;
   font-size: 12px;
+  font-style: normal;
   font-weight: 400;
-  font-family: Roboto, sans-serif;
-  margin-left: 8px;
+  line-height: 14px;
+  letter-spacing: 0.48px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1005,10 +1005,6 @@ input::placeholder {
   border-radius: 4px;
   background-color: #2e2f42;
 }
-
-.form-style-set:hover {
-}
-
 .form-style-set:focus {
   border-radius: 4px;
   background-color: #2e2f42;
@@ -1082,6 +1078,6 @@ img {
 }
 
 a {
-  display: block;
+  
   text-decoration: none;
 }
