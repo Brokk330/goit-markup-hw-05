@@ -866,6 +866,7 @@ body {
   border: none;
   margin-bottom: 16px;
   fill: #f4f4fd;
+  margin-bottom: 24px;
 }
 
 .visually-hidden .checkbox-addition-privacy {
@@ -879,6 +880,7 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  margin-bottom: 24px;
 }
 
 .checkbox-label-text {
