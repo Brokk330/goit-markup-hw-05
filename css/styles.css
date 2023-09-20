@@ -790,6 +790,7 @@ body {
 
 .form-field-wrapper {
   display: flex;
+  margin-bottom: 16px;
   flex-direction: column;
   justify-content: center;
   gap: 8px;
