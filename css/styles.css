@@ -864,6 +864,7 @@ body {
 .checkbox-addition-privacy:checked + .checkbox-label-text > .text-first-part {
   background-color: #404bbf;
   border: none;
+  margin-bottom: 16px;
   fill: #f4f4fd;
 }
 
