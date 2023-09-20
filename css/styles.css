@@ -525,6 +525,7 @@ body {
 /* FOOTER */
 .footer-form-section {
   margin-left: auto;
+  margin-bottom: 16px;
 }
 .footer-container {
   display: flex;
